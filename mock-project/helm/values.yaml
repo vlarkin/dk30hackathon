@@ -25,7 +25,7 @@ backend:
     postgres_user_value: myuser
     postgres_password_env: POSTGRES_PASSWORD
     postgres_password_key: postgres_password
-    postgres_password_value: ""
+    postgres_password_value: "" # will be generated automatically
     postgres_host_env: POSTGRES_HOST
     postgres_host_key: postgres_host
     postgres_host_value: postgres
