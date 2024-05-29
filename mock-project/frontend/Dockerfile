@@ -5,3 +5,4 @@ RUN npm install
 COPY . .
 EXPOSE 3000
 CMD [ "npm", "start" ]
+LABEL org.opencontainers.image.source https://github.com/vlarkin/mock-project/frontend
