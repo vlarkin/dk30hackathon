@@ -1,6 +1,6 @@
 # Create a VM instance with 10GB boot disk
 resource "google_compute_instance" "ubuntu_vm" {
-  name         = "ubuntu-hackathon1"
+  name         = "ubuntu-hackathon"
   machine_type = "e2-small"
   zone         = "europe-west1-b"
 

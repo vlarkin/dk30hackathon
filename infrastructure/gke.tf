@@ -1,5 +1,5 @@
 resource "google_container_cluster" "hackathon" {
-  name                     = "hackathon1"
+  name                     = "hackathon"
   location                 = "${var.region}"
   remove_default_node_pool = false
   initial_node_count       = 1
