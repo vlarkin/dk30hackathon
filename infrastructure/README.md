@@ -79,3 +79,8 @@ Login to the ArgoCD
 ```
 argocd login *ip_address* --username admin --password $(kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d) --insecure
 ```
+
+## Installing a Slack Bot Application on the VM Instance
+
+Instructions on how to install, set up, and run Slack Machine are provided [here](/slack-bot/README.MD)
+
