@@ -1,7 +1,7 @@
 
 ## Architectural Decision Records
 
-![Image](/images/solution_design1.png)
+![Image](/images/solution_design1.jpg)
 
 ### Description of tools
 
