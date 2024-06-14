@@ -2,6 +2,18 @@
 
 This solution provides a fully automated approach to managing preview environments for developers using a Slack bot. The bot integrates with the team's Slack channel and Argo CD tool to streamline the creation, tracking, and deletion of preview environments. Developers can efficiently manage their preview environments, ensuring they are always working with the most up-to-date application set versions and can easily clean up resources when they are no longer needed.
 
+### This Repository Contains
+
+Terraform code for provisioning infrastructure in a GCP project with instructions for installing and setting up GitOps tools are [here](/infrastructure/README.md).  
+
+Instructions for installing and setting up Slack bot with the provided plugins are [here](/slack-bot/README.md).  
+
+Extra details about the high-level solution design and architectural decision records - [ADR](/ADR.md) and [HLD](/HLD.md).  
+
+Project Roadmap (tasks, improvements and new features) is [here](/roadmap.md).  
+
+A pitch presentation for the hackathon is [here](/Hackathon_Pitch_ByteBenders.pdf)
+
 ### Slack Bot Design
 
 The Slack bot is designed to connect to the team's channel and interact with developers through a simple messenger interface. It allows users to initiate environment creation processes, check environment statuses, obtain unique links, and securely delete environments. The bot accepts three primary commands: create, get, and delete, and provides appropriate responses to each.
@@ -33,9 +45,3 @@ The `delete` command allows users to securely delete environments after their us
   
 Perform all necessary actions to delete the specified environment with the application set.  
 Confirm the successful completion of the deletion operation.  
-
-### This Repository Contains
-
-Extra details about the high-level solution design and architectural decision records.  
-Terraform code for provisioning infrastructure in a GCP project.  
-Instructions for installing and setting up GitOps tools and the Slack bot with the provided plugins and commands.  

@@ -82,5 +82,5 @@ argocd login *ip_address* --username admin --password $(kubectl -n argocd get se
 
 ## Installing a Slack Bot Application on the VM Instance
 
-Instructions on how to install, set up, and run Slack Machine are provided [here](/slack-bot/README.MD)
+Instructions on how to install, set up, and run Slack Machine are provided [here](/slack-bot/README.md)
 
