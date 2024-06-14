@@ -14,7 +14,11 @@ We aim to use Google Cloud DNS and configure it to automatically update DNS A re
 
 Extend current GCP monitoring and logging by integrating OpenTelemetry for distributed tracing and metrics, and Grafana for advanced visualization. Deploy a tracing backend like Jaeger to enhance observability, allowing for better performance monitoring, trace analysis, and insightful dashboards. This setup will improve debugging and optimization of preview environments.
 
-### Security
+### Application security
+
+Implement strong validation and sanitization of input variables to prevent command injection and other forms of malicious attacks that exploit unchecked user inputs.
+
+### Infrastructure security
 
 Enhance security by implementing Google Cloud Secret Manager for securely storing and managing tokens, passwords, and keys. We aim to avoid any hardcoded secrets or storing sensitive information in configuration files. Additionally, we will enforce least privilege access using IAM roles and permissions.
 
