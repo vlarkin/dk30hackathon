@@ -12,6 +12,8 @@ Extra details about the high-level solution design and architectural decision re
 
 Project Roadmap (tasks, improvements and new features) is [here](/roadmap.md).  
 
+How it works? View the demo [here](/demo.md).  
+
 A pitch presentation for the hackathon is [here](/Hackathon_Pitch_ByteBenders.pdf)
 
 ### Slack Bot Design
